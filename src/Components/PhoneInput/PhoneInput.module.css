@@ -1,0 +1,35 @@
+.phoneDiv{
+    position: relative;
+    border: 1px solid transparent;
+}
+.phoneInput{
+    width: 85%;
+    text-align: right;
+    padding: 0px 20px;
+    height: 40px;
+    font-size: 20px;
+    outline-color: blue;
+    border: 1px solid lightgray;
+}
+
+.phoneSelect{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    border: none;
+    border-right: 2px solid lightgray;
+    font-size: 15px;
+    outline: none;
+    -webkit-appearance: none;
+    padding-right: 5px;
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+}
+.warning{
+    color: white;
+    font-size: 13px;
+    direction: rtl;
+    margin-top: 2px;
+    font-weight: 100;
+}

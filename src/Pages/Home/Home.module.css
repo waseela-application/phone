@@ -1,0 +1,120 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.loginContainer a {
+    width: 90%;
+}
+
+.loginContainer img {
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.Button{
+    padding: 20px 0px;
+    font-size: large;
+    background-color: #5f68bf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.content{
+    background-color: #fef8fa;
+    padding: 10px;
+    padding-top: 50px;
+    min-height: 100vh;
+    direction: rtl;
+    position: relative;
+}
+
+.sidebarBtn{
+    background-color: #5f68bf;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 20px;
+    font-size: 15px;
+    margin: 15px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.sidebar{
+    display: none;
+    background-color: #5f68bf;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    color: white;
+}
+
+.button{
+    background-color: #5f68bf;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+    padding: 8px 0px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.exit{
+    background-color: #5f68bf;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+    padding: 8px 0px;
+    padding-right: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sidebar button:hover{
+    color: #5f68bf;
+    background-color: white;
+}
+
+.active{
+    color: #5f68bf;
+    background-color: white;
+}
+
+.profile{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    gap: 20px;
+    direction: rtl;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.profile img{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.name{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.info{
+    padding: 20px;
+}
+

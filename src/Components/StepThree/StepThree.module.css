@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    padding-bottom: 10px;
+}
+
+.teachingType{
+    border: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.teachingType input{
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.type{
+    padding: 10px 0px;
+    padding-right: 20px;
+}
+
+.type p{
+    font-size: 12px;
+}
+
+.price{
+    display: none;
+    justify-content: center;
+    padding: 5px 0px;
+    padding-left: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.price button{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    color: black;
+}
+
+.button{
+    background-color: white;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    padding: 10px   20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: 7px;
+    color: black;
+}
+
+.active{
+    background-color: #fef8fa;
+    color: #2e3192;
+    border-color: blue;
+}

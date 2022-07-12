@@ -1,0 +1,37 @@
+.nameDiv{
+    position: relative;
+    border: 1px solid transparent;
+    margin-top: 10px;
+}
+.nameInput{
+    width: 93%;
+    text-align: right;
+    padding-right: 15px;
+    height: 40px;
+    font-size: 20px;
+    outline-color: blue;
+    border: 1px solid lightgray;
+}
+.nameInput:focus::placeholder{
+    color: transparent;
+}
+.nameLabel{
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 15px;
+    background-color: white;
+    padding: 0px 5px;
+}
+.nameInput:focus ~ .nameLabel{
+    display: block;
+    color: blue;
+}
+.warning{
+    color: white;
+    font-size: 13px;
+    direction: rtl;
+    margin-top: 2px;
+    font-weight: 100;
+}

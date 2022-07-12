@@ -1,0 +1,56 @@
+.sidebar{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fef8fa;
+    color: #2e3192;
+}
+
+.sidebar div{
+    text-align: right;
+}
+
+.steps{
+    display: flex;
+    justify-content: right;
+}
+
+.number{
+    border: 1px dashed #2e319262;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.active{
+    border: 1px solid #2e3192;
+}
+
+.done{
+    border: 1px solid #2e3192;
+    background-color: #2e3192;
+    color: white;
+}
+
+.line{
+    border-right: 1px #b5b4dc dashed;
+    height: 20px;
+    margin: 10px;
+    margin-right: 18px;
+}
+
+.help{
+    background-color: #2e3192;
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: white;
+    align-items: center;
+}
+
+.helpNumber{
+    border: 1px solid white;
+    padding: 15px 20px;
+    margin-left: 20px;
+}

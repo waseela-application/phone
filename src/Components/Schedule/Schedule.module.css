@@ -1,0 +1,102 @@
+.timeContainer{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.time{
+    border: 1px solid lightgray;
+    padding: 10px;
+    color: #2e3192;
+}
+
+.timeActive{
+    background-color: #fef8fa;
+    border-color: #2e3192;
+}
+
+.time p{
+    font-size: 15px;
+}
+
+.time div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.edit{
+    font-size: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.enterTime{
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: right;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    direction: rtl;
+    align-items: center;
+}
+
+.header h2{
+    background-color: #fef8fa;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.input input{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px; 
+    direction: rtl;
+    outline-color: blue;
+    font-size: 18px;
+}
+
+.timeSelect{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    direction: rtl;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+}
+
+.header button{
+    padding: 0px 40px;
+    height: 50px;
+    color: white;
+    background-color: #2e3192;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
