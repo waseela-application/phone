@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/appfixed/static/css/main.b11885cd.css",
-    "main.js": "/appfixed/static/js/main.f5007a81.js",
-    "static/media/ryd.jpg": "/appfixed/static/media/ryd.e6705fa44cda6800cf6c.jpg",
-    "static/media/playLogo.png": "/appfixed/static/media/playLogo.c25f475355f0001c6a03.png",
-    "static/media/jed.jpg": "/appfixed/static/media/jed.f300577c89a8ad7131bf.jpg",
-    "static/media/profile.jpg": "/appfixed/static/media/profile.a8c7fdf06062b3c201f1.jpg",
-    "static/media/elm.PNG": "/appfixed/static/media/elm.c0cfef78bb0f26cd3bf5.PNG",
-    "static/media/yon.jpg": "/appfixed/static/media/yon.21fda2775a86236a9e44.jpg",
-    "static/media/tai.jpg": "/appfixed/static/media/tai.ddb37b3b431b8f713a0f.jpg",
-    "index.html": "/appfixed/index.html",
-    "main.b11885cd.css.map": "/appfixed/static/css/main.b11885cd.css.map",
-    "main.f5007a81.js.map": "/appfixed/static/js/main.f5007a81.js.map"
+    "main.css": "/phone/static/css/main.b11885cd.css",
+    "main.js": "/phone/static/js/main.deb8c389.js",
+    "static/media/ryd.jpg": "/phone/static/media/ryd.e6705fa44cda6800cf6c.jpg",
+    "static/media/playLogo.png": "/phone/static/media/playLogo.c25f475355f0001c6a03.png",
+    "static/media/jed.jpg": "/phone/static/media/jed.f300577c89a8ad7131bf.jpg",
+    "static/media/profile.jpg": "/phone/static/media/profile.a8c7fdf06062b3c201f1.jpg",
+    "static/media/elm.PNG": "/phone/static/media/elm.c0cfef78bb0f26cd3bf5.PNG",
+    "static/media/yon.jpg": "/phone/static/media/yon.21fda2775a86236a9e44.jpg",
+    "static/media/tai.jpg": "/phone/static/media/tai.ddb37b3b431b8f713a0f.jpg",
+    "index.html": "/phone/index.html",
+    "main.b11885cd.css.map": "/phone/static/css/main.b11885cd.css.map",
+    "main.deb8c389.js.map": "/phone/static/js/main.deb8c389.js.map"
   },
   "entrypoints": [
     "static/css/main.b11885cd.css",
-    "static/js/main.f5007a81.js"
+    "static/js/main.deb8c389.js"
   ]
 }
